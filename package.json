@@ -1,7 +1,7 @@
 {
   "name": "citygrow-frontend",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": "Sameer Yaqoob",
   "scripts": {
     "serve": "vue-cli-service serve",
