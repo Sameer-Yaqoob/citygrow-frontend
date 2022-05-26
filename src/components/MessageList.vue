@@ -82,7 +82,7 @@ export default defineComponent({
       state.loading = true;
       axios({
         method: 'post',
-        url: 'http://localhost:1337/send_message',
+        url: `${process.env.VUE_APP_API_URL}/send_message`,
         data: qs.stringify({to: phoneNumber, message: state.message}),
         headers: {
           'content-type': 'application/x-www-form-urlencoded;charset=utf-8'
